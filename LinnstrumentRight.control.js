@@ -41,8 +41,8 @@ function sendInitializationMessages()
 
 function onMidi(status, data1, data2)
 {
-  printMidi(status, data1, data2);
-println(MIDIChannel(status));
+  //printMidi(status, data1, data2);
+  //println(MIDIChannel(status));
 }
 
 function exit()
